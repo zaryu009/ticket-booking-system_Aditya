@@ -1,0 +1,31 @@
+{
+  "name": "ticket-booking-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@upstash/redis": "^1.36.3",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.4",
+    "redis": "^5.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ekroop05/ticket-booking-system_Ekroop.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ekroop05/ticket-booking-system_Ekroop/issues"
+  },
+  "homepage": "https://github.com/Ekroop05/ticket-booking-system_Ekroop#readme"
+}
